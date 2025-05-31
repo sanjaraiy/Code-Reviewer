@@ -6,6 +6,9 @@ const app = express();
 
 const aiRoutes = require('./routes/aiRoute');
 
+app.use(express.json());
+
+
 app.use('/api/v1/ai', aiRoutes);
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
