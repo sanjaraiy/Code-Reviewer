@@ -23,7 +23,7 @@ main .left, main .right {
    height: 100%;
    flex-basis: 50%;
    border-radius: 0.7rem;
-   background-color: #3a3939;
+   background-color: #323232;
    
 }
 
