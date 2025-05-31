@@ -23,14 +23,23 @@ main .left, main .right {
    height: 100%;
    flex-basis: 50%;
    border-radius: 0.7rem;
+   background-color: #3a3939;
+   
 }
+
+main .right {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  overflow: auto;
+}
+
 
 main .left {
    background-color: #000000;
    position: relative;
 }
 
-.left .code, .code pre, .code pre code {
+.left .code {
   height: 100%;
   width: 100%;
   margin: 0;
